@@ -13,8 +13,8 @@ const randomNumber = (min , max) => {
     return davtalab ;
 } ;
 console.log(globalArray)
-const group1 = randomNumber (1 , 40)
-const group2 = randomNumber (1 , 40)
-const group3 = randomNumber (1 , 40)
-const enything = {group1:[group1] , group2:[group2] , group3:[group3]}
+const item1 = randomNumber (1 , 40)
+const item2 = randomNumber (1 , 40)
+const item3 = randomNumber (1 , 40)
+const enything = {group1:[item1] , group2:[item2] , group3:[item3]}
 console.log(enything)
