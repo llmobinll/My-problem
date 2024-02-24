@@ -1,7 +1,7 @@
 
 const globalArray = []
 const randomNumber = (min , max) => {
-    var davtalab = []
+    const davtalab = []
     for (let i=0 ; i<3 ; i++) {
         const result = min + Math.floor((Math.random() * (max-min + 1))) ;
         if (globalArray.indexOf(result) === -1) {
